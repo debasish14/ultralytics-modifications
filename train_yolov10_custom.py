@@ -59,7 +59,7 @@ def main():
     results = model.val()
     
     # Save the final model
-    model.save('yolov8_custom.pt')
+    model.save('yolo_custom.pt')
     
     print("Model training completed successfully!")
 
